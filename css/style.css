@@ -1,0 +1,46 @@
+﻿@charset "UTF-8";
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Background */
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+/*    */
+.color-bar {
+  width: 14.28vw;
+  height: 66.6vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(180, 180, 180);
+  box-shadow: 14.29vw 0 0 0 rgb(180, 180, 16), 28.57vw 0 0 0 rgb(16, 180, 180), 42.86vw 0 0 0 rgb(16, 180, 16), 57.14vw 0 0 0 rgb(180, 16, 180), 71.43vw 0 0 0 rgb(180, 16, 16), 85.71vw 0 0 0 rgb(16, 16, 180);
+}
+.color-bar:before {
+  content: "";
+  width: 14.28vw;
+  height: 8.4vh;
+  position: absolute;
+  top: 66.6vh;
+  left: 0;
+  background-color: rgb(16, 16, 180);
+  box-shadow: 14.29vw 0 0 0 rgb(16, 16, 16), 28.57vw 0 0 0 rgb(180, 16, 180), 42.86vw 0 0 0 rgb(16, 16, 16), 57.14vw 0 0 0 rgb(16, 180, 180), 71.43vw 0 0 0 rgb(16, 16, 16), 85.71vw 0 0 0 rgb(180, 180, 180);
+}
+.color-bar:after {
+  content: "";
+  width: 14.28vw;
+  height: 25vh;
+  position: absolute;
+  top: 75vh;
+  left: 0;
+  background-color: rgb(0, 58, 98);
+  box-shadow: 3.57vw 0 0 0 rgb(0, 58, 98), 17.86vw 0 0 0 rgb(235, 235, 235), 21.43vw 0 0 0 rgb(235, 235, 235), 35.71vw 0 0 0 rgb(75, 15, 126), 39.29vw 0 0 0 rgb(75, 15, 126), 53.57vw 0 0 0 rgb(16, 16, 16), 57.14vw 0 0 0 rgb(16, 16, 16), 85.71vw 0 0 0 rgb(16, 16, 16), 80.95vw 0 0 0 rgb(25, 25, 25), 76.19vw 0 0 0 rgb(16, 16, 16), 71.43vw 0 0 0 rgb(7, 7, 7);
+}
